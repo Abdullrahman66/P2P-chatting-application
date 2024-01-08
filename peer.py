@@ -174,6 +174,8 @@ class PeerServer(threading.Thread):
                 logging.error(f"Index error: {ie}")
 
 
+
+
 # Client side of peer
 class PeerClient(threading.Thread):
     # variable initializations for the client side of the peer

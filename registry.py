@@ -4,6 +4,7 @@ import select
 import logging
 import db
 
+
 # This class is used to process the peer messages sent to registry
 # for each peer connected to registry, a new client thread is created
 class ClientThread(threading.Thread):

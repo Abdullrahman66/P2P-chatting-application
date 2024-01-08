@@ -1,5 +1,7 @@
 from pymongo import MongoClient
 
+
+
 class DB:
     # Constructor method
     def __init__(self):
